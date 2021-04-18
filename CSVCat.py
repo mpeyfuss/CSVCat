@@ -142,7 +142,6 @@ class CSVCat(QMainWindow):
             result.to_csv(self.pathDisp.text() + text + ".csv", index=False)
 
             # show process completed message
-            print('success')
             msg = QMessageBox()
             msg.setIcon(QMessageBox.Information)
             msg.setText("Process Completed!")
